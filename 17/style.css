@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, black, rgb(4, 139, 208));
+}
+div{
+  margin-top: 100px;
+  margin-left:40px ;
+  margin-right: 40px;
+  width: 27%;
+  border: 5px solid white;
+  border-radius: 40px;
+  box-shadow: 0 0 20px white;
+  transition-duration: 1s;
+  transition: 2s;
+}
+img{
+  width: 50%;
+}
+p{
+  text-shadow: 0 0 10px white;
+  background-color: green;
+}
+div:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: darkgreen;
+  text-shadow: 0 0 10px white;
+  transform:rotate(-360deg);
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
